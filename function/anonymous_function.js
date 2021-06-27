@@ -48,3 +48,16 @@ console.log(substract)
 //anony function adalah sebuah fungsi yang dideklarasikan tanpa nama not direct access
 //bisa digunakan sebagai argumen pada fungsi lainnya
 //bisa sebagai fungsi expression untuk iife or immediately invole function expression
+
+hoistingFunc()
+
+//syntax : not support for function hoisting
+var hoistingFunc = function(){
+    console.log('hoisting anony function')
+}
+
+function hoistingFunc()
+{ 
+    console.log('hoisting ordinary fufunc')
+    
+}
