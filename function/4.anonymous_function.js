@@ -32,7 +32,6 @@ person = {
     firstName: 'John',
     lastName: 'Doe'
 }
-
 let personIIFE = (function (object){
     console.log(`${object.firstName}`)
 })(person)
@@ -56,6 +55,7 @@ var hoistingFunc = function(){
     console.log('hoisting anony function')
 }
 
+//only support this syntax for function hoisting
 function hoistingFunc()
 { 
     console.log('hoisting ordinary fufunc')
